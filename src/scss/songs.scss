@@ -1,0 +1,36 @@
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(106, 106, 109);
+  margin: 70px;
+}
+.song-all {
+  margin-top: 7%;
+  margin-left: 15%;
+  
+  .songItem {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  button {
+    background-color: #525091; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .songItem:hover {
+    box-shadow: 3px 10px 10px rgba(152, 135, 184, 0.11);
+  }
+}
